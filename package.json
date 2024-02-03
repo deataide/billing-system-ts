@@ -1,0 +1,38 @@
+{
+  "name": "completelogin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/cors": "^2.8.17",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/node-rsa": "^1.1.4",
+    "@types/nodemailer": "^6.4.14",
+    "dotenv": "^16.3.1",
+    "ts-node-dev": "^2.0.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.7.1",
+    "base64url": "^3.0.1",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "node-jsencrypt": "^1.0.0",
+    "node-rsa": "^1.1.1",
+    "nodemailer": "^6.9.8",
+    "prisma": "^5.7.1",
+    "ssh-keygen2": "^0.1.0",
+    "stripe": "^14.11.0"
+  }
+}
